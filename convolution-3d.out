@@ -1,0 +1,8 @@
+conda env list
+conda info --envs
+conda create --name tensorflow
+conda activate tensorflow
+
+python3 convolution-3d.py 
+Input volume shape: (1, 10, 20, 20, 1)
+Output volume shape: (1, 10, 20, 20, 32)

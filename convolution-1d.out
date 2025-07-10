@@ -1,0 +1,9 @@
+python3 convolution-1d.py 
+Signal: [1 2 3 4]
+(4,)
+Kernel: [0.5 1.  0.5]
+(3,)
+Full convolution: [0.5 2.  4.  6.  5.5 2. ]
+(6,)
+Valid convolution: [4. 6.]
+Same convolution: [2.  4.  6.  5.5]
